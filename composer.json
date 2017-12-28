@@ -1,0 +1,12 @@
+{
+    "name": "simlux/laravel-influxdb",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Kleeschulte",
+            "email": "simlux78@gmail.com"
+        }
+    ],
+    "require": {}
+}
