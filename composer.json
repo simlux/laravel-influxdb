@@ -1,12 +1,25 @@
 {
-    "name": "simlux/laravel-influxdb",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
+    "name":        "simlux/laravel-influxdb",
+    "description": "InfluxDB package for Laravel",
+    "type":        "package",
+    "license":     "MIT",
+    "authors":     [
         {
-            "name": "Simon Kleeschulte",
+            "name":  "Simon Kleeschulte",
             "email": "simlux78@gmail.com"
         }
     ],
-    "require": {}
+    "require":     {
+        "php":               ">=7.1",
+        "illuminate/config": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload":    {
+        "psr-4": {
+            "Simlux\\LaravelInfluxdb\\":        "src",
+            "Simlux\\LaravelInfluxdb\\Tests\\": "tests"
+        }
+    }
 }
