@@ -23,5 +23,12 @@
             "Simlux\\LaravelInfluxDB\\":        "src",
             "Simlux\\LaravelInfluxDB\\Tests\\": "tests"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simlux\\LaravelInfluxDB\\LaravelInfluxDBServiceProvider"
+            ]
+        }
     }
 }

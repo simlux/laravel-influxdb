@@ -17,7 +17,7 @@ class LaravelInfluxDBServiceProvider extends ServiceProvider
     {
         $this->publishes([
             self::CONFIG_FILE => config_path('influxdb.php'),
-        ]);
+        ], 'LaravelInfluxDBServiceProvider');
         /*
         if ($this->app->runningInConsole()) {
             $this->commands([
