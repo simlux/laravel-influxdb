@@ -4,7 +4,7 @@ namespace Simlux\LaravelInfluxDB;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelGeneratorsServiceProvider extends ServiceProvider
+class LaravelInfluxDBServiceProvider extends ServiceProvider
 {
     private const CONFIG_FILE = __DIR__ . '/../../config/influxdb.php';
 
